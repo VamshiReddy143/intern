@@ -34,14 +34,14 @@ const ViewerItem = ({ avatar, name, degree, role, buttonText, buttonStyle, isPre
             className={`h-10 w-10 rounded-full mt-1 ${isPremium ? 'pb-2' : ''}`}
             alt={`${name} avatar`}
         />
-        <div className="flex flex-col gap-2">
-            <div className="flex gap-2 items-center">
+        <div className="flex flex-col ">
+            <div className="flex gap-2= items-center">
                 <h3 className="text-black font-semibold text-base">{name}</h3>
                 {degree && <p className="text-gray-500 text-sm">{degree}</p>}
             </div>
             <p className="text-sm w-[90%]">{role}</p>
             <button
-                className={`py-1 px-4 rounded-full flex items-center gap-2 mt-3 font-semibold ${
+                className={`py-1 px-4 rounded-full w-fit flex items-center gap-2 mt-3 font-semibold ${
                     isPremium ? 'bg-[#F8C77E]' : 'border border-gray-300'
                 }`}
                 aria-label={isPremium ? 'Try Premium' : `Message ${name}`}

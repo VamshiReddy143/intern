@@ -188,7 +188,7 @@ Optionally add JSON-LD to Network.jsx or Footer.jsx if icons are stable:<script 
         '@context': 'https://schema.org',
         '@type': 'WebSite',
         name: 'LinkedIn Clone',
-        url: 'https://your-domain.com',
+        url: 'https://intern-ruby-eight.vercel.app/',
     })}
 </script>
 

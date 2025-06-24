@@ -30,7 +30,7 @@ const PersonItem = ({ person, index, connectionStatus, handleConnectClick }) => 
             className="h-10 w-10 rounded-full mt-1"
             alt={`${person.name} avatar`}
         />
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-1">
             <div className="flex items-center gap-2">
                 <h3 className="text-black font-semibold text-base">{person.name}</h3>
                 <img src="/Icons/verified.svg" className="h-4 w-4" alt="Verified badge" />

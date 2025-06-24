@@ -40,7 +40,7 @@ const Urlsection = () => {
     ];
 
     return (
-        <section className="font-sans md:flex hidden flex-col gap-5 bg-white rounded-lg shadow-lg p-3">
+        <section className="font-sans md:flex hidden flex-col  bg-white rounded-lg shadow-lg p-3">
             <Helmet>
                 <title>Profile Settings | Language & URL</title>
                 <meta
